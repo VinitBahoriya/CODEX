@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #282c34;
+    color: #050202;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.music-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-cover {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 5px solid #61dafb;
+    box-shadow: 0 0 20px rgba(97, 218, 251, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.album-cover:hover {
+    transform: scale(1.1);
+}
+
+.song-details {
+    text-align: left;
+}
+
+.audio-controls button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.audio-controls button:hover {
+    background-color: #3f90c5;
+}
+
+.audio-controls input {
+    width: 80%;
+}
+
+.progress-bar input {
+    width: 90%;
+    background-color: #61dafb;
+    border: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; /* Prevents scroll bars caused by the video */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; /* Prevents scroll bars caused by the video */
+}
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://giffiles.alphacoders.com/483/48363.gif');
+    background-position: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Add some transparency to the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
