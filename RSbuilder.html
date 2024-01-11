@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="RS.css">
+    <title>Resume Builder</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-4">Quick Resume</h1>
+
+        <!-- Template Selection -->
+        <div class="form-group">
+            <label for="templateSelect">Select Template:</label>
+            <select class="form-control" id="templateSelect">
+                <option value="template1">Template 1</option>
+                <option value="template2">Template 2</option>
+                <!-- Add more template options as needed -->
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="xyz@example.com">
+        </div>
+
+        <!-- Education Form -->
+        <div class="form-group">
+            <label for="education">Education:</label>
+            <input type="text" class="form-control" id="education" placeholder="Bachelor's in Computer Science">
+        </div>
+
+        <!-- Work Experience Form -->
+        <div class="form-group">
+            <label for="experience">Work Experience:</label>
+            <textarea class="form-control" id="experience" rows="3" placeholder="Software Engineer at ABC Company"></textarea>
+        </div>
+
+        <!-- Skills Form -->
+        <div class="form-group">
+            <label for="skills">Skills:</label>
+            <input type="text" class="form-control" id="skills" placeholder="JavaScript, HTML, CSS">
+        </div>
+        <div class="preview-container">
+            <h2>Preview</h2>
+            <div id="previewContent"></div>
+        </div>
+
+        <!-- Download Button -->
+        <button class="btn btn-primary mt-3" id="downloadButton">Download Resume</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="RS.js"></script>
+</body>
+</html>
